@@ -62,7 +62,8 @@ If you have questions:
 
 ## 📜 License
 
-License terms will be published soon. Until then, the software is provided **"as is"**, without any warranties.
+All rights reserved by [ama-pool.com](https://ama-pool.com).  
+The software is provided **"as is"**, without any warranties, expressed or implied.
 
 ---
 
