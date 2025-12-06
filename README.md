@@ -31,6 +31,18 @@ amapoolminer.exe -host pool.ama-pool.com:4444 -wallet YOUR_WALLET_ADDRESS -worke
 
 > **Note**: Make sure you have up-to-date GPU drivers installed for optimal performance.
 
+
+## 🛰️ HiveOS Integration
+
+You can easily deploy `amapoolminer` on HiveOS using a flight sheet:
+
+1. Download the file **`hiveos-flightsheet-template.json`** from the [Releases](https://github.com/amapool/amapoolminer/releases) page.
+2. In the HiveOS web interface, go to the **"Flight Sheets"** section.
+3. Click **"Add New Flight Sheet"** → **"Import from File"**, and select the downloaded `hiveos-flightsheet-template.json`.
+4. Click **"Add wallet"**, then in the popup window enter your **Amadeus (AMA) wallet address** in the **Address** field and click **"Create"**.
+5. Finalize the setup by clicking **"Create Flight Sheet"**.
+6. Apply the newly created flight sheet to your worker(s).
+
 ---
 
 ## 📦 Supported Platforms
