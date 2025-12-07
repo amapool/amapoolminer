@@ -1,6 +1,6 @@
 # amapoolminer
 
-**`amapoolminer`** is the GPU miner for the **Amadeus (AMA)** cryptocurrency, designed specifically for mining on the [AMA Mining Pool](https://ama-pool.com).
+**`amapoolminer`** is the GPU miner for the [Amadeus (AMA)](https://ama.one) cryptocurrency, designed specifically for mining on the [AMA Mining Pool](https://ama-pool.com).
 
 It supports both **NVIDIA** (via CUDA) and **AMD** (via OpenCL) graphics cards.
 
