@@ -32,18 +32,33 @@ amapoolminer.exe -host pool.ama-pool.com:4444 -wallet YOUR_WALLET_ADDRESS -worke
 > **Note**: Make sure you have up-to-date GPU drivers installed for optimal performance.
 
 
-## 🛰️ HiveOS Integration
-
+### 🛰️ HiveOS Integration  
 You can easily deploy `amapoolminer` on HiveOS using a flight sheet:
 
-1. Download the file **`hiveos-flightsheet-template.json`** from the [Releases](https://github.com/amapool/amapoolminer/releases) page.
-2. In the HiveOS web interface, go to the **"Flight Sheets"** section.
-3. Click **"Add New Flight Sheet"** → **"Import from File"**, and select the downloaded `hiveos-flightsheet-template.json`.
-4. Click **"Add wallet"**, then in the popup window enter your **Amadeus (AMA) wallet address** in the **Address** field and click **"Create"**.
-5. Finalize the setup by clicking **"Create Flight Sheet"**.
+1. Download the file:
+👉 [**hiveos-flightsheet-template.json**](https://github.com/amapool/amapoolminer/releases/download/v2.2.0/hiveos-flightsheet-template.json)   
+2. In the HiveOS web interface, go to the **"Flight Sheets"** section.  
+3. Click **"Add New Flight Sheet"** → **"Import from File"**, and select the downloaded `hiveos-flightsheet-template.json`.  
+4. Click **"Add wallet"**, then in the popup window enter your **Amadeus (AMA) wallet address** in the **Address** field and click **"Create"**.  
+5. Finalize the setup by clicking **"Create Flight Sheet"**.  
 6. Apply the newly created flight sheet to your worker(s).
 
 ---
+
+### 🖥️ mmpOS Setup Guide  
+To run `amapoolminer` on **mmpOS**, follow these steps:
+
+1. Download the miner profile:  
+   👉 [**export_amapoolminer.json**](https://github.com/amapool/amapoolminer/releases/download/v2.2.0/export_amapoolminer.json)  
+2. In the mmpOS web interface, go to **"Miner Profiles"** → click **"Import from JSON"** → switch to the **"JSON File"** tab → select the downloaded file → click **"Import"**.  
+3. Click **"Add Pool"**:  
+   - If you don’t have a wallet yet, click **"Add Wallet"**, choose coin **ANON** (AMA support coming soon), fill in **Name** and **Wallet Address**, then click **Create**.  
+   - Once your wallet is ready, click **"Create pool"**.  
+4. Click **"Add miner profile"**, then in the popup click **"Create profile"**.  
+5. Assign the newly created profile to your workers.
+
+---
+
 
 ## 📦 Supported Platforms
 
